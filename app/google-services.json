@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1034972782163",
+    "firebase_url": "https://penyiramtanah.firebaseio.com",
+    "project_id": "penyiramtanah",
+    "storage_bucket": "penyiramtanah.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1034972782163:android:3fcf8f0ab1e8c215fe70a6",
+        "android_client_info": {
+          "package_name": "com.example.pemantaualatsiramtanah"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1034972782163-l0glu2q2m4emluji2njf5jvlf91iud3c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.pemantaualatsiramtanah",
+            "certificate_hash": "b9418348620ec95103e0f159c8979dd1e75ddaad"
+          }
+        },
+        {
+          "client_id": "1034972782163-2m6qa1cci9u5j66qoggfk8gum126osbi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6VRkvR_pdxfmSzpEKhA7xkV5Ct1JzwGM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1034972782163-2m6qa1cci9u5j66qoggfk8gum126osbi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

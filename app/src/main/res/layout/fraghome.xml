@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/concrete_seamless"
+    >
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/cardSatu"
+        app:cardCornerRadius="17dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="30dp"
+        android:layout_weight="3"
+        app:cardElevation="4dp"
+        >
+
+      <RelativeLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:padding="10dp">
+
+          <ImageView
+              android:layout_width="65dp"
+              android:layout_height="65dp"
+              android:src="@drawable/letter_n"/>
+
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="65dp"
+              android:id="@+id/nitrogenText"
+              android:text="Nit"
+              android:textSize="55dp"
+              android:layout_alignParentRight="true"
+              android:layout_alignParentBottom="true"
+              android:layout_marginBottom="5dp"
+              />
+
+      </RelativeLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/cardDua"
+        android:layout_alignParentRight="true"
+        app:cardCornerRadius="17dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="30dp"
+        android:layout_weight="3"
+        app:cardElevation="4dp"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp">
+
+            <ImageView
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:src="@drawable/letter_p"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="65dp"
+                android:id="@+id/psforText"
+                android:text="Psf"
+                android:textSize="55dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="5dp"
+
+                />
+
+        </RelativeLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/cardTiga"
+        android:layout_below="@+id/cardSatu"
+        app:cardCornerRadius="17dp"
+
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="30dp"
+        android:layout_weight="3"
+        app:cardElevation="4dp"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp">
+
+            <ImageView
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:src="@drawable/letter_k"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="65dp"
+                android:id="@+id/kaliumText"
+                android:text="kal"
+                android:textSize="55dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="5dp"
+                />
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:cardCornerRadius="17dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="30dp"
+        android:layout_below="@+id/cardDua"
+        android:layout_weight="3"
+        app:cardElevation="4dp"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp">
+
+            <ImageView
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:src="@drawable/humidity"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="65dp"
+                android:id="@+id/humiText"
+                android:text="hum"
+                android:textSize="55dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="5dp"
+                />
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginEnd="70dp"
+        android:layout_toRightOf="@+id/centerShift"
+        app:cardCornerRadius="17dp"
+        android:layout_marginTop="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/cardTiga"
+        android:foreground="?attr/selectableItemBackground"
+        android:stateListAnimator="@drawable/lift_on_touch"
+        app:cardElevation="4dp"
+        android:id="@+id/SprinkleButtonOff"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/sprinkleImageOff"
+            >
+
+
+            <ImageView
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/sprinkle"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="OFF"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="10dp"
+                android:layout_alignParentBottom="true"
+                android:textSize="40dp"
+                android:textStyle="bold"
+
+                />
+
+
+        </RelativeLayout>
+
+
+
+    </android.support.v7.widget.CardView>
+
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="50dp"
+        android:layout_height="150dp"
+        app:cardCornerRadius="17dp"
+        android:layout_marginTop="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/cardTiga"
+        android:layout_weight="3"
+        app:cardElevation="4dp"
+        android:layout_marginStart="70dp"
+        android:id="@+id/SprinkleButtonOn"
+        android:foreground="?attr/selectableItemBackground"
+        android:stateListAnimator="@drawable/lift_on_touch"
+        android:layout_marginEnd="7dp"
+        android:layout_toLeftOf="@+id/centerShift"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/sprinkleImageOn"
+            >
+
+
+            <ImageView
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/sprinkle"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ON"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="10dp"
+                android:layout_alignParentBottom="true"
+                android:textSize="40dp"
+                android:textStyle="bold"
+                />
+
+
+        </RelativeLayout>
+
+
+
+    </android.support.v7.widget.CardView>
+
+
+    <ImageView
+        android:id="@+id/centerShift"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_centerHorizontal="true"/>
+
+
+
+
+</RelativeLayout>
